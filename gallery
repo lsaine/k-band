@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carlos Fresquez</title>
+	<link rel="stylesheet" type="text/css" href="GalleryStylesheet.css">
+</head>
+<body>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/print/9005.gif" 
+alt="Carlos Fresquez, Jaguarman and the New Heart (1992)"></img>
+<p>Carlos Fresquez, Jaguarman and the New Heart (1992)</p>
+</div>
+
+<div>
+<img
+src="http://www.carlosfresquez.com/THUMBS/installation/2002.gif"
+alt="Viva Mexico (2002)"></img>
+<p>Carlos Fresquez, Viva Mexico (2002)</p>
+</div>
+
+<div>
+<img
+src="http://www.carlosfresquez.com/THUMBS/paint/90s_033th.gif"
+alt="(man on horseback) (1994)"></img>
+<p>Carlos Fresquez, (man on horseback) (1994)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/9002.gif"  
+alt="Guitar (1996)"></img>
+<p>Carlos Fresquez, Guitar (1996)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/0027th.gif"  
+alt="Night lite (1989)"></img>
+<p>Night lite (1989)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/installation/Az92.gif"  
+alt="Nuestra Senora de Aztlan (2007)"></img>
+<p>Nuestra Senora de Aztlan (2007)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/media80.gif"  
+alt="Cool Couple Series (1985)"></img>
+<p>Cool Couple Series (1985)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/03cfresquez.jpg"  
+alt="Corazones Placas: Series #8 (1979)"></img>
+<p>Corazones Placas: Series #8 (1979)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/90s_60th.gif"  
+alt="Talking to the Spirits ("></img>
+<p>Talking to the Spirits (</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/9001.gif"  
+alt="Frida as Olympia (1991)"></img>
+<p>Frida as Olympia (1991)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/Posole_1993.gif"  
+alt="Posole (1993)"></img>
+<p>Posole (1993)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/FresquezC_31.gif"  
+alt="Chiapas Warrior de la Tierra Madre (1995 )"></img>
+<p>Chiapas Warrior de la Tierra Madre (1995 )</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/CFresquez_070409_1486_th.gif"  
+alt="Lucharific! (2007)"></img>
+<p>Lucharific! (2007)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/0005th.gif"  
+alt="Ranchos Vista (1998)"></img>
+<p>Ranchos Vista (1998)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/0001th.gif"  
+alt="Hot Fun (1989)"></img>
+<p>Hot Fun (1989)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/0004th.gif"  
+alt="Teatro de la Frontera (1993)"></img>
+<p>Teatro de la Frontera (1993)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/0003th.gif"  
+alt="Teatro de mi Corazon (1991)"></img>
+<p>Teatro de mi Corazon (1991)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/FresquezC_32.gif"  alt="Corrido Cosmico (1998)"></img>
+<p>Corrido Cosmico (1998)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/CFresquez_070409_1491_th.gif"  
+alt="Razapowered or Adelante! (2007)"></img>
+<p>Razapowered or Adelante! (2007)</p>
+</div>
+
+<div>
+<img src="http://www.carlosfresquez.com/THUMBS/paint/0002th.gif"  
+alt="!!Despiertate!! Es Un Solo Mundo (1989)"></img>
+<p>!!Despiertate!! Es Un Solo Mundo (1989)</p>
+</div>
+
+<div>
+<img 
+src="http://www.carlosfresquez.com/THUMBS/paint/0006th.gif"  
+alt="San Ysidro (1995)"></img>
+<p>San Ysidro (1995)</p>
+</div>
+
+</body>
+<html/>
+
+
+img {
+	height: 280px;
+	width: 280px;
+}
+
+
+
+div {
+	height: 300px;
+	width: 300px;	
+	float: left;
+	font-size: 75%;
+	margin: 50px 5px 5px 5px;
+}
