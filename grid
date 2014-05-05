@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="HolyGrailStylesheet.css">
+		<title> Boom Boom Pow!</title>
+	</head>
+	<body>
+	
+	    <div id="header"><p>Boom Boom</p></div>
+	    
+	    <div class="top"><h1>Pow!</h1></div>
+
+	 	<section>
+
+			<div class="left"><p>Air Guitar</p></div>
+			
+			<div class="middle"><p>Song Papers</p></div>
+			
+			<div class="right"><p>Nerf Ball</p></div>
+		
+		</section>
+	    
+	    <div class="bottom"><p> Jam </p></div>
+	    
+	    <div id="footer"><p> Moon Watch </p></div>
+	    
+	</body>
+</html>
+
+
+body {
+	background-image:url('http://www.carlosfresquez.com/THUMBS/paint/0001th.gif');
+}
+
+div {
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: blue;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+section {
+  	width: 1220px;
+	  padding-bottom: 40px;
+    margin: 10px auto;
+}
+
+#header {
+    height: 100px;
+	  width:  1200px;
+    padding-bottom: 40px;
+    margin: 10px auto;
+}
+
+.top {
+    height: 100px;
+    width: 1200px;
+    padding-bottom: 40px;
+    margin: 10px auto;
+}
+
+.left {
+    height: 200px;
+	  width: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block; 
+}
+
+.middle {
+    height: 200px;
+	  width: 600px;
+    padding: 20px;
+    margin: 10px;
+	  display: inline-block;
+}
+
+.right {
+    height: 200px;
+	  width: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.bottom {
+    height: 100px;
+	  width: 1200px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    clear: both;
+    z-index: -1;
+}
+
+#footer {
+    height: 100px;
+	  width: 1200px;
+    padding-bottom: 20px;
+	  margin: 10px auto;
+    position: relative;
+    clear: both;
+}
