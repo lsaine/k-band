@@ -1,9 +1,6 @@
 syntax-exper
 ============
 
-first experiments
-
-
 ul {
 margin:0;
 padding:0;
