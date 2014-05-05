@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Test One</title>
+	<link rel="stylesheet" type="text/css" href="JSTestPageStylesheet.css">
+</head>
+
+<body class="Body">
+
+<header>Headlines!</header>
+
+<main class="Main">
+
+   	<p id="test1">Test One</p>
+
+	<button type="button" onclick="myFunction()">Click me</button>
+    
+   	
+	<p id="test2">Test Two</p>
+	
+	<p><a href="javascript:myChange()">Change me</a></p>
+	
+		
+	<canvas id="canvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+	
+	<p>Color Canvas</p>
+	
+	<canvas id="gradient" width="200" height="100" style="border:1px solid #000000;"></canvas>
+	
+	<p>Gradient Canvas</p>
+	
+	<canvas id="rectangle" width="200" height="200" style="border:1px solid #000000;"></canvas>
+	
+	<p>Rectangle Canvas</p>
+	
+		
+</main>
+
+<br></br>
+	
+<footer>Sticky Footer</footer>
+    	
+<script src="JSTestPageScript.js"></script>
+
+
+document.getElementById("test1").innerHTML="changing paragraph";	
+
+function myFunction() 
+	{alert("It worked!");
+	}
+
+function myChange()
+	{document.getElementById("test2").innerHTML="Surprise!";
+	}	
+
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+	ctx.fillStyle = "#FF0000";
+	ctx.fillRect(0,0,150,75);
+	
+		
+var g = document.getElementById("gradient");
+var ctxg = g.getContext("2d");
+
+// Create gradient
+
+var grd = ctxg.createLinearGradient(0,0,200,0);
+	grd.addColorStop(0,"MediumVioletRed");
+	grd.addColorStop(1,"DarkOrange");
+
+// Fill with gradient
+
+	ctxg.fillStyle = grd;
+	ctxg.fillRect(10,10,150,80);
+
+
+var r = document.getElementById ("rectangle");
+var ctxr = r.getContext ("2d");
+	ctxr.fillRect(25,25,100,100);
+	ctxr.clearRect(45,45,60,60);
+	ctxr.strokeRect(50,50,50,50);
