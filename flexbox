@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="FlexboxStylesheet.css">
+		<title> Boom Boom Pow!</title>
+	</head>
+	
+	<body>
+	
+	    <header>Boom Boom</header>
+		
+		<div id="top">Pow!</div>
+	    
+		<main>				
+
+				<nav>Air Guitar</nav>
+			
+				<article> Song Papers</article>
+						
+				<aside>Nerf Ball</aside>
+				
+		</main>
+	    
+	    <div id="bottom">Jam</div>
+		
+		<footer>Moon Watch</footer>
+		
+	</body>
+</html>
+
+body {
+	min-height: 100vh;		/* this is what makes the body cover the whole html */
+	font: 36px "Lucida" Grande, sans-serif;
+	background:#94FFE9;			
+	text-align: center;	
+	}	
+
+#top, #bottom, header, footer {
+	margin: 4px;
+	padding-top: 40px;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	background: #FFCC66;
+	}
+	
+header, footer {     			
+	height: 50px;				
+	}							
+	
+#top, #bottom {					
+	height: 70px;
+	}	
+   
+main {
+	min-height: 800px; 			
+	margin: auto;			/* auto is only in-line spacing */
+	display: flex;
+	flex-direction: row;		/* justify-content:space-around only in-line justifies */
+	}
+	     
+article {	
+	margin: 4px;				
+	padding-top: 50px;
+	border: 1px solid #cccc33;
+	border-radius: 7pt;
+	background: #B8DBFF;
+	flex: 3 1 60%;			/* flex-grow flex-shrink flex-basis */
+	order: 2; 
+	}
+	  
+nav {
+	margin: 4px;
+	padding-top: 50px;
+	border: 1px solid #8888bb;
+	border-radius: 7pt;
+	background: #99CCFF;
+	flex: 1 6 20%;
+    	order: 1; 
+	}
+	
+aside {
+	margin: 4px;
+	padding-top: 50px;
+	border: 1px solid #8888bb;
+	border-radius: 7pt;
+	background: #99CCFF;
+	flex: 1 6 20%;  				
+	order: 3;  
+   	}
+   
+@media (max-width: 850px) {		
+  	main {
+		flex:1;
+		}
+	article {
+		min-height: 50vh;
+		order: 0; 		/* returns them to document order */
+		}	
+	nav, aside {
+		order: 0; 						
+		}	
+	}
+
+/* flex-flow is shorthand for flex-direction and flex-wrap */	
+
+ 
