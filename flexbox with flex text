@@ -1,0 +1,150 @@
+<!--
+flexbox with responsive font size and menu buttons
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<link rel="stylesheet" type="text/css" href="K-bandOnWebsiteWorkingDocStylesheet.css">
+	
+	<title> K-band </title>
+		
+		
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	</head>
+	
+<body>
+    	<header></header>
+		
+	<div id="top">	<h3> Welcome to the <span id="logo">K-band</span> website!</h3>  </div>
+  
+	<main>				
+		<nav></nav>
+				
+		<article></article>
+		  
+		<aside>
+			<iframe id="bitcoin" src="https://coinbase.com/inline_payments/b62338d9ca654434d9500c696e68a500" scrolling="no" allowtransparency="true" frameborder="0"></iframe>	
+      	</aside>
+				
+	</main>
+	    
+	<div id="bottom">
+		<div id="mozilla">
+			<a href="https://affiliates.mozilla.org/referral/59662/">
+			<img src="https://affiliates.mozilla.org/media/uploads/banners/67dd84b09b8d8127c1b31ca20e1a8e17a9e084bd.png" alt="Mozilla affiliate logo"></a>
+		</div>
+
+	</div>
+	<footer></footer>
+		
+</body>
+</html>
+
+body {
+	min-height: 100vh;
+	font: 24px "Brush ScriptMT" sans-serif;
+	background:#94FFE9;			
+	text-align: center;	
+  font-size: 2.5vw;
+	}
+	
+header, footer {
+	height: 3em;
+	margin: 4px;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	background-image: url("http://www.carlosfresquez.com/THUMBS/paint/9002.gif");
+	background-size: 3em 3em;
+	background-repeat: repeat-x;
+	}
+					
+#logo {
+	font-family: 'Love Ya Like A Sister', cursive;	
+	color: magenta;
+	font-size: 2em;
+	}
+
+#top {
+  height: 3em;
+	margin: 4px;
+	padding-bottom: 2em;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	background: #FFCC66;
+	}
+
+#bottom {
+	height: 2.5em;
+	margin: 4px;
+	border: 1px solid #eebb55;
+	border-radius: 7pt;
+	background: #FFCC66;
+	}	
+   
+main {
+	min-height: 70vh; 			
+	margin: auto;			
+	display: flex;
+	flex-direction: row;		
+  }
+
+article {	
+	margin: 4px;				
+	padding-top: 5em;
+	border: 1px solid #cccc33;
+	border-radius: 7pt;
+	background: #B8DBFF;
+	flex: 3 1 60%;			
+	order: 2; 
+	}
+	  
+nav {
+	margin: 4px;
+	padding-top: 5em;
+	border: 1px solid #8888bb;
+	border-radius: 7pt;
+	background: #99CCFF;
+	flex: 1 6 20%;
+    order: 1; 
+	}
+	
+	
+aside {
+	margin: 4px;
+	padding-top: 5em;
+	border: 1px solid #8888bb;
+	border-radius: 7pt;
+	background: #99CCFF; 
+	flex: 1 6 20%;  				
+	order: 3;  
+   	}
+	
+#bitcoin {
+	border: none; 
+	box-shadow: 0 1px 3px rgba(0,0,0,0.25); 
+	overflow: hidden;	
+	margin-top: 16em;
+	}
+
+#mozilla {     			
+	display: block;
+	float:right;
+	}
+   
+@media (max-width: 850px) {		
+  	main {
+		flex:1;
+		}
+	article {
+		min-height: 50vh;
+		order: 0; 		
+		}	
+	nav, aside {
+		order: 0; 						
+		}	
+	}
+		
+
