@@ -1,0 +1,19 @@
+body {
+	background:#64B5F6;
+}
+	
+
+img {
+	height: 280px;
+	width: 280px;
+}
+
+
+
+div {
+	height: 300px;
+	width: 300px;	
+	float: left;
+	font-size: 75%;
+	margin: 50px 5px 5px 5px;
+}
