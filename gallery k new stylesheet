@@ -1,0 +1,39 @@
+body {
+  background:#64B5F6;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}	
+
+#container {
+  margin: 0 5%;}
+  
+h1 {
+  padding-bottom:5px;}
+
+figure {
+  height: 500px;
+  width:500px;
+  float:left;
+  margin: 2px;}
+  
+figcaption {
+  padding-top: 5px;
+  font-style:italic;}
+
+#portrait {
+  height: 90%;
+  width: 70%;
+  object-fit:contain;
+  object-position: 0 100%;
+  }
+
+#landscape {
+  height: 70%;
+  width: 90%;
+  object-fit:contain;
+  object-position: 0 100%;
+  }
+
+/*img {
+  height: 90%;
+  width: 90%;
+  object-fit:contain;
+  object-position: 0 100%;} */
