@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery K</title>
+	<link rel="stylesheet" type="text/css" href="GalleryKStylesheet.css">
+</head>
+<body>
+
+<figure class="tooltip" id="BlueWindow">
+<span>Story of the Blue Window</span>
+		<img src="http://www.k-band.us/BlueWindow.jpg" alt="Blue Window">
+		<figcaption>Blue Window</figcaption>
+</figure>
+
+
+<figure class="tooltip" id="MoroccoDoor">
+<span>Story of the Morocco Door</span>
+		<img src="http://www.k-band.us/MoroccoDoor.jpg" alt="Morocco Door">
+		<figcaption>Morocco Door</figcaption>
+</figure>
+
+<figure class="tooltip" id="PinkDoor">
+<span>Story of the Pink Door</span>
+		<img src="http://www.k-band.us/MoroccoPinkDoor.jpg" alt="Pink Door">
+		<figcaption>Pink Door</figcaption>
+</figure>
+
+<figure class="tooltip" id="Doors">
+<span>Story of the Doors</span>
+		<img src="http://www.k-band.us/Doors.jpg" alt="Doors">
+		<figcaption>Doors</figcaption>
+</figure>
+
+</body>
+</html>
