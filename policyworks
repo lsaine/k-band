@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="PolicyWorksStylesheet.css">
+	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+	<title>PolicyWorks</title>
+</head>
+
+<body>
+
+<header>
+  <p>PolicyWorks<br>Public Policy Research and Analysis<br>Lauren Saine</p>
+</header>
+
+<main>
+<nav>
+  <p>Comments 2015 :</p>
+  <ul>
+    <li><a href="GoogleFiber.html">Google Fiber and The Cost of Connectivity</a></li>
+    <br>
+    <li><a href="NetNeutrality.html">Net Neutrality: What It Means for Startups</a></li>
+    <br>
+    <li><a href="Surcharges.html">Title II and Internet Surcharges</a></li>
+    <br>
+    <li><a href="Poles.html">The Grid: Who Controls the Poles?</a></li>
+  </ul>
+    
+  <p>News 2015:</p>
+  <ul>
+    <li><a href="InternetByDrone.html">Internet-By-Drone Trials Approved</a></li>
+    <br>
+    <li><a href="Webpass.html">Webpass Granted State Certification</a></li>
+  </ul>
+</nav>
+
+<article>
+  <figure class="tooltip">
+	<img src="MongoliaConnection.jpg" alt="Mongolia Connection / Amanda Bronesky (c)2007" style="width:500px; height:350px">
+	<figcaption>Women and Technology</figcaption>
+  </figure>
+  <p id="gallerylink">(c)Amanda Bronesky 2007<br>For more work by this artist, go to the <a href="Gallery.html">Gallery.</a></p> 
+  
+  <br>
+  <p>About:</p>
+  
+  <p id="bio"><img src="Portrait.jpg" id="thumbnail"> Lauren Saine is a lawyer who writes on tech policy in San Francisco.  She has more than ten years of experience in public policy analysis, most recently as legal and policy advisor at the California Public Utilities Commission and previously as legislative analyst for the Colorado Legislature's Joint Budget Committee.  She also served as a management consultant with the Mountain States Employers Council. Lauren holds a JD with honors from the University of Denver College of Law and a Certificate in Strategic Management from the Harvard Kennedy School's Executive Education Program.  She is a novice coder and an active member of the Startup Policy Lab, Women Who Code, and SFHTML5 study groups.</p>
+
+</article>
+</main>
+</body>
+</html>
