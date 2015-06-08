@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photographs</title>
+	<link rel="stylesheet" type="text/css" href="GalleryStylesheet.css">
+</head>
+<body>
+  
+<div id="container">
+
+<h1>Amanda Bronesky / Photographs</h1>
+
+<figure>
+<img id="portrait" src="Sign.jpg" alt="Amanda">
+<figcaption>Isla de Mujeres: Don't Throw Rocks at the Iguanas</figcaption>
+</figure>
+
+<figure>
+<img id="landscape" src="Boat.jpg" alt="Amanda">
+<figcaption>Isla de Mueres: Henna Tatoos</figcaption>
+</figure>
+
+<figure>
+<img id="landscape" src="Girl in Red Shirt.jpg" alt="Amanda">
+<figcaption>Mongolia Ger, en route to Lake Hovsgol</figcaption>
+</figure>
+
+<figure>
+<img id="landscape" src="Green Gate.jpg" alt="Amanda">
+<figcaption>Green Gate, Ulan Bator</figcaption>
+</figure>
+
+<figure>
+<img id="landscape" src="Vineyard.jpg" alt="Amanda">
+<figcaption>Vineyard, U.S. Pacific Northwest</figcaption>
+</figure>
+
+</div>
+
+</body>
+</html>
